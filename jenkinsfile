@@ -1,3 +1,6 @@
 // commented code
 pipeline{
+    agent {
+        label 'docker-slave'
+    }
 }
