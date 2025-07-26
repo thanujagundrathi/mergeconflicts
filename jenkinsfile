@@ -1,3 +1,6 @@
 // commented code
-pipeline{
+pipeline {
+  agent {
+   label 'any'
+  }
 }
